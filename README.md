@@ -1,5 +1,5 @@
 # w-table
-#####reusable table with pagination
+Reusable table with pagination
 ## Project setup
 ```
 npm install
