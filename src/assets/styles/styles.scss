@@ -1,0 +1,20 @@
+@import 'variables.scss';
+
+.table-btn {
+  outline: none;
+  cursor: pointer;
+  min-width: 100px;
+  height: 25px;
+  background-color: #70abff;
+  border-radius: 8px;
+  border: 2px solid #4788ec;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: rgba(112, 171, 255, 0.8);
+  }
+
+  &:active {
+    background-color: rgba(112, 171, 255, 0.6);
+  }
+}
