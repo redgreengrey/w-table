@@ -1,10 +1,7 @@
 <template>
   <div class="v-table" v-show="isLoaded">
     <div class="v-table-search">
-      <v-search v-model="searchValue" />
-      <button @click="handleInput" class="v-table-search__btn table-btn">
-        Найти
-      </button>
+      <v-search v-model="searchValue" @searchBtnClicked="handleInput" />
     </div>
     <div class="table">
       <div class="table-header">
